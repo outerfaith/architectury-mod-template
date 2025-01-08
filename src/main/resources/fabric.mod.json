@@ -1,0 +1,14 @@
+{
+    "schemaVersion": 1,
+    "id": "${id}",
+    "version": "${version}",
+    "environment": "*",
+    "depends": {
+        "fabricloader": ">=0.16.9",
+        "minecraft": "${minecraftVersion}",
+        "java": ">=21",
+        "fabric-api": "*"
+    },
+    "accessWidener": "mod.accesswidener",
+    "license": "LGPL v2.1"
+}
