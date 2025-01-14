@@ -1,0 +1,15 @@
+{
+    "schemaVersion": 1,
+    "id": "${modId}",
+    "version": "${version}",
+    "name": "${modName}",
+    "environment": "*",
+    "depends": {
+        "fabricloader": ">=${fabricLoaderVersion}",
+        "minecraft": "${minecraftVersion}",
+        "java": ">=21",
+        "fabric-api": ">=${fabricApiVersion}",
+        "architectury": "${architecturyVersion}"
+    },
+    "license": "FIXME"
+}
