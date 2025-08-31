@@ -1,9 +1,9 @@
 plugins {
     `java-library`
     idea
-    id("dev.architectury.loom") version "1.9-SNAPSHOT"
+    id("dev.architectury.loom") version "1.11-SNAPSHOT"
     id("architectury-plugin") version "3.4-SNAPSHOT"
-    id("com.gradleup.shadow") version "9.0.0-beta4"
+    id("com.gradleup.shadow") version "9.1.0"
 }
 
 val minecraftVersion: String by project
